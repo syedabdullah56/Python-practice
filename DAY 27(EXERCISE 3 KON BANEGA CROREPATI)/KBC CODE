@@ -1,0 +1,12 @@
+a=int(input("Enter your name please to get started:")
+print("Hello",a,"Welcome to Kon banega crorepati")
+print("Are you ready to play KBC")
+b=input("Type "YES" OR "NO")
+if b=="YES":
+  print("Lets start the game")
+else:
+  print("OK play this when you are free")
+if b=="YES":
+  print("Choose the correct option")
+  list=["Q1:In which team babar started to play PSL \n (a)KARACHI KINGS  (b)PESHAWAR ZALMI  \n  (c)ISLAMABAD UNITED  (d)LAHORE QALANDARS",]
+ 

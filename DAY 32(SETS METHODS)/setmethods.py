@@ -1,0 +1,29 @@
+s1={1,2,3,4,4,5,6,4,3}
+s2={5,6,7,87,6,7,8,9,10,11,21,1,11}
+cities={"Karachi","Lahore","Islamabad",'PESHAWAR',"KARACHI"}
+cities2={"Karachi","Lahore","Islamabad",'PESHAWAR',"KARACHI","Multan","Faisalabad","kpk","Delhi","Mumbai"}
+print(s1.union(s2))
+print(s1.intersection(s2))
+print(s1.update(s2))
+print(s1)
+print(s1.intersection_update(s2))
+print(s1.isdisjoint(cities))
+print(cities2.issuperset(cities))
+print(s1.add('PAKISTAN'))
+print(s1.pop())
+print(cities.issubset(cities2))
+print(s1.symmetric_difference(s2))
+print(s1.remove(4)) 
+print(s1.discard(4))
+print(s1.difference(2))
+a={1,2,3,4,5,6}
+b={5,6,7,8,9,0}
+del a
+del b
+print(a)
+a1={1,2}
+b1={3,4,5,6}
+a1.update(b1)
+print(a1)
+a1.add("PAKISTAN")
+print(a1)
